@@ -1,0 +1,4 @@
+--compilers js:babelify/node_modules/babel-core/register
+--require test/mocha.setup.js
+--reporter spec
+--recursive
