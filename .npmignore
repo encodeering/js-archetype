@@ -1,0 +1,9 @@
+node_modules
+src
+test
+target
+gulpfile.js
+index.html
+*.iml
+*.tgz
+.*

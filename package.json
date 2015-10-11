@@ -1,0 +1,45 @@
+{
+  "name": "js-archetype",
+  "version": "1.0.0",
+  "description": "js archetype using mocha, sinon, chai, eslint, babel, node, browserify, gulp",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel-runtime": "^5.8.25",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-spawn-mocha": "^2.2.1",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3",
+    "run-sequence": "^1.1.4",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0",
+    "thunk-mocha": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
+    "watchify": "^3.4.0"
+  },
+  "author": "Michael Clausen <m.clausen@encodeering.de>",
+  "scripts": {
+    "clean": "gulp clean",
+    "test": "gulp lint test",
+    "watch": "gulp watch",
+    "watch+": "gulp watch --incremental",
+    "prepublish": "gulp clean && gulp distribution --production --js-language es6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:encodeering/js-archetype.git"
+  },
+  "private": true,
+  "license": "Apache License 2.0"
+}
