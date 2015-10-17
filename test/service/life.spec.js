@@ -12,6 +12,7 @@ describe ('Life', () =>
         it ('should be 42',     () => expect (life.answer ()).to.equal (42));
 
         it ('should be called', () => {
+            // a non-sense test to verify that sinon-chai has been loaded correctly
             let spy = sinon.spy ();
                 spy ();
 
